@@ -179,7 +179,10 @@ search for the save command (indeed, any command) using the command palette.
 Try it by bringing up the palette with `⌘ + ⇧ + p`. Then search for "Save".
 
 Lets quickly take a peek inside the file we jsut created in our terminal.
-Type `cat name.text`.
+Type `cat name.txt`.
+ 
+Now type `open name.txt`.
+See what happened? The file `name.txt` opens in whatever default application your computer uses for that type of file.
 
 ### Deleting a File
 
